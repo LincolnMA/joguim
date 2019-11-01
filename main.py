@@ -7,7 +7,6 @@ def verify_collision():
     for i in range(0,len(enemies)):
         if enemies[i][0] <= position.x <= enemies[i][0]+enemy_size.get():
             if enemies[i][1] <= position.y <= enemies[i][1]+enemy_size.get():
-                #print("Colisão!")
                 drops.set(int(drops.get()) + 1)
                 index_colision = i
     if(index_colision > 0): del(enemies[index_colision])
