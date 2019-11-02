@@ -87,7 +87,6 @@ lb2.grid(row = 5,column = 0)
 #Counter of drops
 ent = Entry(sidebar,textvariable = drops)
 ent.grid(row = 6,column = 0)
-
 ##Tela
 screen = Canvas(window,bg = "white",cursor = "man",width = 300,height = 300)
 screen.grid(row = 0,column = 1)
